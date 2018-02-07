@@ -14,12 +14,21 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 /* Start your base/mobile styles here */
 
-html, body {
+body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
     margin: 35px;
 }
+h1 {
+    font-family: 'Archivo Black', sans-serif;
 }
+
+h2 {
+    font-style: bold;
+    text-align: left;
+}
+}
+
 
 
 /* Tablet/Desktop overrides */

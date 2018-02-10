@@ -18,23 +18,28 @@ body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
     margin: 35px;
-    background-color: rgb(175, 135, 125);
+    background-color: white;
+}
+
+p{
+    font-size: 1.2em;
 }
 
 h1 {
     font-family: 'Archivo Black', sans-serif;
-    border-bottom: solid grey 10px;
+    border-bottom: solid 5px;
 }
 
 h2 {
     font-style: bold;
     text-align: left;
     font-family: 'Archivo Black', sans-serif;
-    border-bottom: solid grey 10px;
+    border-bottom: solid 5px;
 }
 img {
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
 
@@ -42,11 +47,29 @@ img {
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
-
-
-      }/* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+      /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 }
 
 @media(min-width: 729px) {
-    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+ /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+ img {
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   }
+   .container {
+     max-width: 745px;
+     display: block;
+     margin: 0 auto;
+
+   }
+   
+   figure{
+     display: inline-block;
+   }
+   body {
+     font-size: 24px;
+     line-height: 1.2;
+   }
+
 }
